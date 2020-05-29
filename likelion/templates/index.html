@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block contents%}
+안녕
+<a href ="{% url 'home' %}>"><img src = "{% static 'likelion/img/kimchi.jpg' %}" /></a>
+
+{% endblock %}

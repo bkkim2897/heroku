@@ -1,0 +1,21 @@
+body{
+    background :black;
+    color: white;
+    font-family:
+}
+.nav{
+    height:50px;
+    background : red;
+    display : flex;
+    justify-content : center;
+    
+}
+.nav .right-nav{
+    display: flex;
+    background : black;
+    color : yellow;
+}
+
+.nav .right-nav .nav-items {
+    margin: 20px;
+}
